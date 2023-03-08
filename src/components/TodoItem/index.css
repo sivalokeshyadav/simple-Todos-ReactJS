@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.todo-item-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: black;
+}
+
+.delete-button {
+  border-radius: 5px;
+  border-color: red;
+  color: red;
+  background-color: white;
+}
